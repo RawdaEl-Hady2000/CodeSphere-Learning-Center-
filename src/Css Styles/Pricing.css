@@ -1,0 +1,82 @@
+.pricing {
+    color: #ff5722;
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    margin-bottom: revert;
+    margin-top: -20px;
+    text-align: center;
+}
+
+
+.pricing::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50%;
+    height: 3px;
+    background-color: #1c375b;
+}
+
+.Limited-users,
+.amount,
+.list {
+    color: gray;
+    margin-top: -7px;
+}
+
+.price {
+    color: #ff5722;
+}
+
+.Undergrads,
+.Postgrads,
+.Companies,
+.PRO {
+    color: #1c375b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.list {
+    margin-top: 15px;
+}
+
+.list img {
+    margin-left: -17px;
+    margin-right: 3px;
+}
+
+.btn-success {
+    background-color: #ff5722;
+    margin-top: 15px;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #1c375b;
+    color: white;
+}
+
+.btn-secondary {
+    margin-top: 15px;
+    border: none;
+    color: white;
+    background-color: #1c375b;
+}
+
+.btn-secondary:hover {
+    background-color: #ff5722;
+    color:#1c375b;
+}
+.PRO{
+    border-color: #1c375b;
+    border-style: dashed;
+} 
+.PRO h5{
+    border: none;
+}

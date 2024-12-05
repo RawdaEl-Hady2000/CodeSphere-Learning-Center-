@@ -1,0 +1,132 @@
+.courses{
+    color: #ff5722;
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    margin-bottom: revert;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.courses::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50%;
+    height: 3px;
+    background-color: #1c375b;
+}
+
+.front-courses{
+    color: #1c375b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.btn-info {
+    margin-left: 15px;
+    background-color: #1c375b;
+    border: 1px solid white;
+    color: white;
+    margin-top: 15px;
+    border-radius: 25px;
+  
+  }
+  
+  .btn-info:hover {
+    background-color: white;
+    border-color: #1c375b;
+    color: #1c375b;
+  }
+  
+
+
+.html-background {
+   background-image: url(https://img.freepik.com/free-photo/programming-background-collage_23-2149901768.jpg?t=st=1732924899~exp=1732928499~hmac=a00c4e8d1a7a87ade9b53c4205f8b90b4ed12de590641caefc89886516cbbb70&w=900);
+   background-size: cover;
+   width: -webkit-fill-available;
+   height: 150px;
+}
+.css-background{
+    background-image: url(https://colorlib.com/wp/wp-content/uploads/sites/2/creative-css3-tutorials.jpg);
+   background-size: cover;
+   width: -webkit-fill-available;
+   height: 150px;  
+}
+.Bootstrap-background{
+    background-image: url(https://www.iim.fr/ecole-web/wp-content/uploads/2015/03/twitter-bootstrap.jpg);
+    background-size: cover;
+    width: -webkit-fill-available;
+    height: 150px; 
+}
+.js-background{
+     background-image: url(https://miro.medium.com/v2/resize:fit:840/1*8nfBRAssY0DuETYwdwyqqw.png);
+    background-size: cover;
+    width: -webkit-fill-available;
+    height: 150px;
+}
+.react-background{
+    background-image: url(https://maktabkhooneh.org/mag/wp-content/uploads/2019/07/react-js-image.png);
+    background-size: cover;
+    width: -webkit-fill-available;
+    height: 150px;
+}
+.angular-background{
+    background-image: url(https://external-preview.redd.it/qW5sXZSe_7w815bbdJh3mwhzBxyEdK13fFyRs3_8ZdQ.jpg?width=640&crop=smart&auto=webp&s=53d250c9db70f2b0fe7a93de0cf57e7f7ffc2a06);
+    background-size: cover;
+    width: -webkit-fill-available;
+    height: 150px;
+}
+.vue-background{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFNQLALwWiAI1Y38Q6ZET388XzuGulXAEE4Q&s);
+    background-size: cover;
+    width: -webkit-fill-available;
+    height: 150px;  
+}
+.next-background{
+    background-image: url(https://blog.zegocloud.com/wp-content/uploads/2024/04/nextjs-alternative.jpg);
+    background-size: cover;
+    width: -webkit-fill-available;
+    height: 150px; 
+}
+
+.all-courses .btn{
+    background-color: #ff5722;
+    margin-top: 15px;
+    border: none;
+    color: white;
+}
+.all-courses .btn:hover {
+    background-color: #1c375b;
+    color: white;
+} 
+.PHP-background{
+    background-image: url(https://cdn-images-1.medium.com/max/900/0*ug7m0tU7x_OpC2uY);
+    background-size: cover;
+    width: -webkit-fill-available;
+    height: 150px;   
+}
+.NET-background{
+    background-image: url(https://media.licdn.com/dms/image/v2/D4D12AQFf6NtSqug1qg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1661349251079?e=2147483647&v=beta&t=R-3QKsfr97pKaPnzKCTdkRP1shqZEd8AhlhRE3NEGRo);
+    background-size: cover;
+    width: -webkit-fill-available;
+    height: 150px;
+}
+.SQL-background{
+    background-image: url(https://severalnines.com/wp-content/uploads/2023/12/BLOG-Whats-new-in-SQL-Server-2022.png);
+    background-size: cover;
+    width: -webkit-fill-available;
+    height: 150px;
+}
+.java-background{
+    background-image: url(https://api.free-work.com/media/cache/resolve/blog_post_image_large/l-ecosysteme-java-en-profonde-mutation-quelles-consequences-sur-l-it-gZ9moKGGtQE3ER2f.jpg);
+    background-size: cover;
+    width: -webkit-fill-available;
+    height: 150px; 
+}

@@ -1,0 +1,59 @@
+.contact {
+    color: #ff5722;
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    margin-bottom: revert;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.contact::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50%;
+    height: 3px;
+    background-color: #1c375b;
+}
+
+.contact-title{
+    color: #1c375b;
+}
+
+.public-info{
+    color: gray;
+}
+
+
+.submit{
+    background-color: #ff5722;
+    margin-top: 15px;
+    border: none;
+}
+
+.submit:hover {
+    background-color: #1c375b;
+    color: white;
+}
+
+.left-side, .right-side {
+    opacity: 0;
+    transform: translateX(-50px); 
+    transition: all 1s ease;
+}
+
+.right-side {
+    transform: translateX(50px); 
+}
+
+.animate-left {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.animate-right {
+    opacity: 1;
+    transform: translateX(0);
+}
